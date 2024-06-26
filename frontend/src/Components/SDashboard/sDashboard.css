@@ -1,0 +1,50 @@
+.t5{
+    text-align: center;
+    margin-top: 30px;
+    color: #0406a5;
+}
+.team h4 {
+    text-align: center;
+    margin-left: 152px;
+    margin-top: -16px;
+}
+
+.team {
+  background-color: azure;
+    height: 125vh;
+
+}
+
+.sp6{
+  text-align: center;
+  margin-left: 417px;
+  margin-right: 242px;
+  margin-bottom: 50px;
+}
+
+.sLbtn7{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.sbtn6 {
+  width: 200px;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #3519be; /* Green */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+  
+  .sbtn6:hover {
+    background-color: #3519be; /* Darker Green */
+  }
+  
+  .st5{
+    text-decoration: none;
+    color: #f2f2f2;
+  }

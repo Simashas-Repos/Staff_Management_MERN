@@ -1,0 +1,80 @@
+
+.sdetail2{
+    text-align: center;
+    margin: 0%;
+    padding-top: 100px;
+    color: white;
+  }
+  
+  .ss2{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top:  35px;
+    margin-right: 16px;
+    display: block;
+    text-align: left;
+    width: 20%;
+    
+  }
+  
+  .sp2{
+    text-align: center;
+  }
+  
+  .stb2{
+    padding: 20px;
+    opacity: 1.9;
+    margin: 50px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: white;
+    margin-top: 60px;
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 65px;
+    opacity: 0.85;
+  }
+  
+  .stb2 th{
+    background-color: #023d78;;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .stb2 th, .stb2 td{
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: white;
+  }
+  
+  .stb2 tbody tr:nth-child(odd) {
+    background-color: #1264b1; /* Light blue */
+  }
+  
+  .stb2 tbody tr:nth-child(even) {
+    background-color: #023d78;; /* Dark blue */
+  }
+  
+  
+  /* Action buttons styles */
+  table button.update {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: navy; /* Navy blue for Update button */
+    color: white;
+    border-radius: 50%; /* Rounded button */
+  }
+  
+  table button.delete {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6347; /* Red for Delete button */
+    color: white;
+    border-radius: 50%; /* Rounded button */
+  }
+  
+  

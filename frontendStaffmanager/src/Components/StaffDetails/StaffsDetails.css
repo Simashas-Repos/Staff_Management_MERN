@@ -1,0 +1,108 @@
+.sdetail1 {
+  text-align: center;
+  margin: 0%;
+  padding-top: 100px;
+}
+
+.ss1 {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 35px;
+  margin-right: 16px;
+  display: block;
+  text-align: left;
+  width: 20%;
+}
+
+.sp1 {
+  text-align: center;
+}
+
+.stb1 {
+  padding: 20px;
+  opacity: 1.9;
+  margin: 50px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: white;
+  margin-top: 60px;
+  width: 90%;
+  border-collapse: collapse;
+  margin-left: 65px;
+  opacity: 0.85;
+}
+
+.stb1 th {
+  background-color: #023d78;
+  font-weight: bold;
+  color: white;
+}
+
+.stb1 th,
+.stb1 td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+.stb1 tbody tr:nth-child(odd) {
+  background-color: #1264b1; /* Light blue */
+}
+
+.stb1 tbody tr:nth-child(even) {
+  background-color: #023d78; /* Dark blue */
+}
+
+/* Action buttons styles */
+table button.update {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: navy; /* Navy blue for Update button */
+  color: white;
+  border-radius: 50%; /* Rounded button */
+}
+
+table button.delete {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff6347; /* Red for Delete button */
+  color: white;
+  border-radius: 50%; /* Rounded button */
+}
+
+.sdown1 {
+  border-radius: 25px;
+  width: 100px;
+  box-shadow: 0 0 10px white;
+  background-color: rgb(15, 24, 153);
+  color: white;
+  margin-left: 1300px;
+}
+
+/* Circular image style */
+.stb1 tbody td:nth-child(2) img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+@media print {
+  .print-hide {
+    display: none;
+  }
+
+  .details {
+    width: 100%;
+    margin: 0 auto; /* Centers the table horizontally */
+  }
+
+  .tb1 {
+    width: 90%; /* Adjust width to less than 100% if needed */
+    margin: 0 auto; /* Centers the table */
+  }
+}

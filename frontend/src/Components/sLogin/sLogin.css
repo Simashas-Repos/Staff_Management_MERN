@@ -1,0 +1,76 @@
+/* sLogin.css */
+
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+.slogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Background image styles */
+.bg {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Form container styles */
+.sloginform {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  margin-top: 174px;
+
+}
+
+/* Input styles */
+.sin8 {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button styles */
+.lbutton {
+  width: 100%;
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lbutton:hover {
+  background-color: #0056b3;
+}
+
+/* Heading styles */
+.sloginh {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Label styles */
+.slb8 {
+  font-weight: bold;
+  color: black;
+  
+}

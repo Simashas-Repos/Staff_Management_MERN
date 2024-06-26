@@ -1,0 +1,67 @@
+.sin4{
+  width: 40%;
+  height: 30px;
+}
+
+.ss4 {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top:  109px;
+  margin-right: 16px;
+  display: block;
+  text-align: left;
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+
+
+.sform4 {padding-top: 55px;
+    border: #ccc;
+    padding-left: 250px;
+}
+.sdetail4 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.sp4 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.sdetail4{
+  text-align: center;
+  margin: 0%;
+  padding-top: 50px;
+  color: black;
+}
+
+.stb4 {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-right: 1000px;
+  opacity: 0.75;
+}
+
+.stb4 th,
+.stb4 td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.stb4 th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.stb4 tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stb4 tbody tr:hover {
+  background-color: #e9e9e9;
+}
+

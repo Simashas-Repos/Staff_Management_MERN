@@ -1,0 +1,87 @@
+.updateStaff {
+  padding-top: 40px;
+  border: #ccc;
+  padding-left: 250px;
+}
+
+.img2 {
+  display: none; /* Hide the default file input */
+}
+
+.file-upload-container {
+  width: 100px; /* Adjust the container size as needed */
+  height: 100px; /* Adjust the container size as needed */
+  border-radius: 50%; /* Make the container a circle */
+  overflow: hidden; /* Ensure the circle shape */
+  position: relative; /* Positioning for absolute positioning of the input */
+}
+
+.file-upload-label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee; /* Background color for the container */
+  cursor: pointer;
+}
+
+.file-upload-label:hover {
+  background-color: #ddd; /* Hover effect for the container */
+}
+
+.file-upload-text {
+  font-size: 16px;
+  color: #333; /* Text color */
+}
+
+.img-preview {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Make the image inside the circle */
+}
+
+.label-container {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+.sin4 {
+  width: 40%;
+  height: 30px;
+}
+
+.slb4 {
+  width: 40%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Style for select */
+select {
+  width: 40%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for submit button */
+button[type="submit"] {
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+  background-color: darkblue;
+}
